@@ -1,5 +1,5 @@
-# React Events WebApp
-Welcome to React Events WebApp! This is Events web application project that utilized the [Tanstack React Query](https://tanstack.com/query/latest).
+# NextLevel Food WebApp
+Welcome to NextLevel Food WebApp! This is NextLevel Food web application project that utilized the [NextJS](https://nextjs.org/) framework which is the React framework for the web.
 
 ### Weblink: [Live Website](#)
 
@@ -10,7 +10,7 @@ Welcome to React Events WebApp! This is Events web application project that util
 - [Technologies Used](#technologies-used)
 
 ## Introduction
-The project is a React-based Events web application, leveraging the power of Tanstack Query(React Query) for efficient data fetching, and caching. It includes functionalities like data fetching, caching, mutations, form submissions, error handling, and integration with React Router for smooth navigation.
+The project is a NextJS-based food web application, a functional and user-friendly platform for sharing recipes and connecting with other food enthusiasts on NextLevel Food.
 
 ## Web Pages
 |  Home                             |
