@@ -1,22 +1,88 @@
+# React Events WebApp
+Welcome to React Events WebApp! This is Events web application project that utilized the [Tanstack React Query](https://tanstack.com/query/latest).
+
+### Weblink: [Live Website](#)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Web Pages](#web-pages)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+
+## Introduction
+The project is a React-based Events web application, leveraging the power of Tanstack Query(React Query) for efficient data fetching, and caching. It includes functionalities like data fetching, caching, mutations, form submissions, error handling, and integration with React Router for smooth navigation.
+
+## Web Pages
+|  Home                             |
+|-----------------------------------------|
+| ![home](https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/a8f1d5ca-87d5-4fb2-88e4-b3a38fe0317c) |
+
+|  Browse Meals                              |
+|-----------------------------------------|
+| ![browse meals](https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/1aab3e97-db1a-4811-ab0c-17957f9fcf1c) |
+
+|  Share your meal                                                            |
+|----------------------------------------------------------------------------------|
+| ![share meal](https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/90fd8abd-6cc4-48f3-aee5-a21e50fd72ee) |
+
+
+|  Meals Details                              |
+|-----------------------------------------|
+| ![meal details](https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/aabc16ed-1966-4fa2-8f63-f82deeb458b2) |
+
+|  Community                             |
+|-----------------------------------------|
+| ![community](https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/8b30fffa-f950-473b-afe3-cf40e641e79e) |
+
+## Features
+- Browse/Explore Meals Page:
+  - Present a curated list of shared meals, showcasing each meal's name, recipe details, summary, and the creator's name.
+
+- Share Meal Form:
+  - Enable users to contribute their own recipes by providing essential details such as their name, email, recipe title, a concise summary, detailed instructions, and an accompanying image.
+
+- Foodies Community Page:
+  - Offer an informative static page that outlines the community aspect of the website, fostering engagement and interaction among users.
+
+- Layout Management:
+  - Maintain a cohesive layout across all pages using a central layout file, including a prominently featured header component for intuitive navigation and brand identity.
+
+- Styling:
+  - Implement styling using CSS Modules, ensuring a visually appealing and consistent user experience. Optionally, integrate Tailwind CSS or CSS-in-JS for enhanced styling capabilities.
+    
+- Dynamic Routing:
+  - Establish dynamic routes for individual meal pages, leveraging route parameters to enable seamless navigation and content retrieval.
+    
+- Server-side Rendering:
+  - Harness the power of Next.js for server-side rendering, enhancing performance and search engine optimization for improved discoverability and user engagement.
+    
+- Form Submission and Validation:
+  - Implement robust form submission functionality, encompassing both client-side and server-side validation mechanisms to uphold data integrity and user experience standards.
+    
+- Database Integration:
+  - Integrate with a SQLite database to efficiently store and retrieve meal data, ensuring scalability and reliability for the platform's backend operations.
+
+- Error Handling:
+  - Employ effective error handling mechanisms to gracefully manage unexpected scenarios, providing clear and informative error messages to guide users through any issues encountered.
+
+- Image Handling:
+  - Facilitate seamless image uploading functionality for shared meals, prioritizing secure storage and efficient retrieval of uploaded images to enrich the overall user experience.
+
+- Caching and Performance Optimization:
+  - Implement caching strategies and leverage Next.js features such as revalidation to optimize performance, minimize server load, and ensure timely updates to cached data in response to user interactions and content updates.
+
+## Technologies Used
+- Next.js: Full-stack framework for React apps with built-in server-side rendering and routing.
+- React.js: Front-end library for building user interfaces.
+- SQLite: Lightweight, file-based relational database for storing app data locally.
+- React Hooks: Used for state management and side effects in functional components.
+- CSS Modules: Enables scoped and modular CSS styling for components.
+- Form Handling: Utilizes native HTML form elements and server-side processing for form submissions.
+- Metadata Generation: Integrates with Next.js's metadata generation capabilities for SEO optimization.
+
+## NextJS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
@@ -28,9 +94,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
