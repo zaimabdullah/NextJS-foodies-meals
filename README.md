@@ -1,8 +1,6 @@
 # NextLevel Food WebApp
 Welcome to NextLevel Food WebApp! This is NextLevel Food web application project that utilized the [NextJS](https://nextjs.org/) framework which is the React framework for the web.
 
-### Weblink: [Live Website](#)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Web Pages](#web-pages)
